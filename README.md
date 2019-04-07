@@ -2,7 +2,7 @@
 Python script to launch Windows CLI pogram that need access to USB ports for Xilinx 1525 FPGA cards.
 The script will get a list of FPGA cards, lock them out by opening the corresponding COM port, and release the ports one by one while running Window CLI instances that talk to the FPGA cards.
 
-8 Apr 2019:>br>
+8 Apr 2019:<br>
 The script can program partial bitstreams by adding them in a batch file
 
 ---- Sample batch file for partial bitstreams ----
