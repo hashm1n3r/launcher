@@ -3,18 +3,18 @@ Python script to launch Windows CLI pogram that need access to USB ports for Xil
 The script will get a list of FPGA cards, lock them out by opening the corresponding COM port, and release the ports one by one while running Window CLI instances that talk to the FPGA cards.
 
 8 Apr 2019:<br>
-The script can program partial bitstreams by adding them in a batch file
-
----- Sample batch file for partial bitstreams ----
-cd c:\users\xxxx\desktop\bitstreams
-launch.py -b bs_top.bit
-launch.py -b bs0.bit
-launch.py -b bs1.bit
-launch.py -b bs2.bit
-launch.py -b bs3.bit
-.....
-launch.py -b bsn.bit
----- end of sample ----
+The script can program partial bitstreams by adding them in a batch file<br>
+<br>
+---- Sample batch file for partial bitstreams ----<br>
+cd c:\users\xxxx\desktop\bitstreams<br>
+launch.py -b bs_top.bit<br>
+launch.py -b bs0.bit<br>
+launch.py -b bs1.bit<br>
+launch.py -b bs2.bit<br>
+launch.py -b bs3.bit<br>
+.....<br>
+launch.py -b bsn.bit<br>
+---- end of sample ----<br>
 
 30 Dec 2018:<br>
 Script now can program bitstreams to cards without running Vivado<br>
